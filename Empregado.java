@@ -29,4 +29,15 @@ public class Empregado {
         this.idade = idade;
     }
     
+    
+    public int getTipo(){
+        return this.tipo;
+    }
+
+    public void setTipo(int tipo){
+        this.tipo = tipo;
+    }
+    public class TesteEmpregado {
+    public static void main(String[] args){
+    } 
 }
